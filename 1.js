@@ -1,4 +1,4 @@
-function biodata() {
+function Biodata() {
   let Ade = {
     Name: "Ade Rahman P",
     Address: "Depok",
@@ -23,4 +23,4 @@ function biodata() {
   return Ade;
 }
 
-console.log(biodata());
+console.log(Biodata());
