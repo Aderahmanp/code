@@ -1,6 +1,6 @@
 # code
 
-# Installation 
+# Installation
 
 ```
 $ git clone https://github.com/Aderahmanp/code.git
@@ -10,9 +10,10 @@ $ npm start or yarn start
 ```
 
 ### How to use
+
 - Open postman
 - Create New Programmer
-- Create Skill 
+- Create Skill
 - Show all programmer
 
 ### Technology
@@ -22,3 +23,14 @@ $ npm start or yarn start
 - [mongodb](https://cloud.mongodb.com/)
 - [postman](https://www.getpostman.com/)
 - [HTML](https://html.com/)
+
+### Screenshot Postman
+
+- Create Programmer
+  ![Create programmer](./CreateProgrammer.png)
+
+- Add new skill
+  ![Add Skill](./addSkill.png)
+
+- Show all programmer
+  ![Show](ShowAll.png)
