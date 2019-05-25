@@ -30,7 +30,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // initialzation of plug'in Middleware, Routes
-app.use("/", userRoutes);
+app.use("/user", userRoutes);
 
 // Listen server
 app.listen(PORT, () => {

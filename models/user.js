@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 const userSchema = mongoose.Schema({
   name: { type: String },
-  skill: [{ type: Schema.Types.ObjectId, ref: "Skills" }]
+  skill: [{ type: String }]
 });
 
 module.exports = mongoose.model("User", userSchema);
