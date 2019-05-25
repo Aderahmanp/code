@@ -1,6 +1,7 @@
 const express = require("express");
 const userRoutes = require("./routes/user");
 const mongoose = require("mongoose");
+const cors = require("cors");
 
 try {
   dotEnv = require("dotenv").config();
@@ -28,6 +29,7 @@ mongoose
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(cors());
 
 // initialzation of plug'in Middleware, Routes
 app.use("/user", userRoutes);
